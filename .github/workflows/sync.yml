@@ -11,7 +11,7 @@ jobs:
   repo-sync:
     runs-on: ubuntu-latest
     steps:
-      - uses: TG908/fork-sync@v1.6.3
+      - uses: tgymnich/fork-sync@v2.0
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           repo: Surge # fork 上游仓库名

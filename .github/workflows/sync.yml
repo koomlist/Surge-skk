@@ -11,7 +11,7 @@ jobs:
     steps:
       - uses: tgymnich/fork-sync@v2.0.10
         with:
-          github_token: ${{ secrets.ForkSyncToken }}
+          token: ${{ secrets.ForkSyncToken }}
           owner: SukkaW # fork 的上游仓库 user
           head: master # fork 的上游仓库 branch
           base: master # 本地仓库 branch
